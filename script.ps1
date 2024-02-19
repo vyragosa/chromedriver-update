@@ -1,6 +1,6 @@
 try {
     $ProgressPreference = 'SilentlyContinue'
-    $jsonUrl = "https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json
+    $jsonUrl = "https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json"
 
     # !!! Может отличаться от системы к системе. Если отличается, просто пропишите путь по папки !!!
     $targetDirectory = Join-Path -Path $env:LOCALAPPDATA -ChildPath "Programs\RITA_worker\bin"
